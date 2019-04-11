@@ -34,13 +34,19 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/Admin.h" />
 		<Unit filename="include/Carti.h" />
+		<Unit filename="include/Customer.h" />
 		<Unit filename="include/Date.h" />
+		<Unit filename="include/MenuInterface.h" />
 		<Unit filename="include/Resurse.h" />
 		<Unit filename="include/VM.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Admin.cpp" />
 		<Unit filename="src/Carti.cpp" />
+		<Unit filename="src/Customer.cpp" />
 		<Unit filename="src/Date.cpp" />
+		<Unit filename="src/MenuInterface.cpp" />
 		<Unit filename="src/Resurse.cpp" />
 		<Unit filename="src/VM.cpp" />
 		<Extensions>
