@@ -42,9 +42,7 @@
 		<Unit filename="include/Resurse.h" />
 		<Unit filename="include/VM.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="src/Admin.cpp" />
 		<Unit filename="src/Carti.cpp" />
-		<Unit filename="src/Customer.cpp" />
 		<Unit filename="src/Date.cpp" />
 		<Unit filename="src/MenuInterface.cpp" />
 		<Unit filename="src/Resurse.cpp" />

@@ -2,33 +2,39 @@
 using namespace std;
 #include <iostream>
 #include <string.h>
-Resurse::Resurse(string a,int b)
+Resurse::Resurse(string name)
 {
-   name=a;
+   this->name=name;
    stare=0;
 
 }
-/*Resurse::Resurse(const Resurse & p)
+
+Resurse::Resurse(string name,bool stare)
 {
-    if (p.name==NULL)
-        ;
-    else
-        name=p.name;
-    stare=p.stare;
+   this->name=name;
+   this->stare=stare;
+
 }
-*/
 Resurse::~Resurse()
 {
-    /*if (this->name!=NULL)
-        delete[]this->name;
-        */
+
 }
 
 void Resurse::rezervare()
 {
-    stare=1;
+    stare=true;
 }
 void Resurse::anulare()
 {
-    stare=0;
+    stare=false;
+}
+ostream & Resurse::afisare(ostream &o)
+{
+o<<this->name<<"  "<<this->stare;
+return o;
+
+}
+ostream  & operator<<(ostream & os,Resurse &r)
+{
+ return r.afisare(os);
 }

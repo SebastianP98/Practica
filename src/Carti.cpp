@@ -3,24 +3,19 @@ using namespace std;
 #include <iostream>
   #include "Carti.h"
 #include <string.h>
-Carti::Carti(string  a,string b,string  c,int d):Resurse(a,d)
+Carti::Carti(string  name,string autor,string  isbn):Resurse(name)
 {
-     autor=b;
-     isbn=c;
+     this->autor=autor;
+     this->isbn=isbn;
 
 }
-/*Carti::Carti(const Carti &p):Resurse(const Resurse& f)
+Carti::Carti(string  name,string autor,string  isbn,bool stare):Resurse(name,stare)
 {
-   if (p.name!=NULL)
-     strcpy(name,p.name);
-   stare=p.stare;
-   if (p.autor!=NULL)
-     strcpy(autor,p.autor);
-   if (p.isbn!=NULL)
-     strcpy(isbn,p.isbn);
+     this->autor=autor;
+     this->isbn=isbn;
 
 }
-*/
+
  Carti & Carti:: returnare(string  a)
 {
 
@@ -28,21 +23,28 @@ Carti::Carti(string  a,string b,string  c,int d):Resurse(a,d)
      if( name==a)
           return * this;
 }
-
+ostream & Carti::afisare(ostream & o)
+{
+  o<<this->getnume()<<","<<this->getautor()<<","<<this->getisbn()<<","<<this->getstare();
+  return o;
+}
 Carti::~Carti()
 {
-   /*if (this->name!=NULL)
-        delete[]this->name;
-    if (this->autor!=NULL)
-        delete[]this->autor;
-    if (this->isbn!=NULL)
-        delete[]this->isbn;
-        */
+
 }
 void Carti::afisare()
 {
-    cout<<"afisare";
-  cout<<name;
-   cout<<isbn<<" "<<autor;
+    cout<<"afisare ";
+    cout<<name << " ";
+    cout<<isbn<<" "<<autor << endl;
 
+}
+ostream & operator<<(ostream &os,Carti & p)
+{
+    return p.afisare(os);
+}
+
+void Carti::scriere(ostream & os)
+{
+    os<<this->getnume()<<","<<this->getautor()<<" "<<this->getisbn()<<" "<<this->getstare();
 }

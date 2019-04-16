@@ -4,14 +4,23 @@ using namespace std;
 #include <iostream>
 #include "Resurse.h"
 #include <string.h>
-VM::VM(string a,string b,string c,string d,string e,Date *g,int h):Resurse(a,h)
+VM::VM(string name,string hostname,string ip,string port,string kvnargs,Date *created):Resurse(name)
 {
 
-      hostname=b;
-      ip=c;
-      port=d;
-      kvnargs=e;
-      created=g;
+      this->hostname=hostname;
+      this->ip=hostname;
+      this->port=port;
+      this->kvnargs=kvnargs;
+      this->created=created;
+}
+VM::VM(string name,string hostname,string ip,string port,string kvnargs,Date *created,bool stare):Resurse(name,stare)
+{
+
+      this->hostname=hostname;
+      this->ip=hostname;
+      this->port=port;
+      this->kvnargs=kvnargs;
+      this->created=created;
 }
 /*VM::VM(const VM & p)
 {
@@ -48,6 +57,27 @@ VM::~VM()
 }
 void VM::afisare()
 {
-  cout<<name;
-   cout<<hostname<<" "<<ip<<" "<<port<<" "<<kvnargs<<*created;
+    cout<<name << " ";
+    cout<<hostname<<" "<<ip<<" "<<port<<" "<<kvnargs<< " " << *created << endl;
+}
+ostream & VM::afisare(ostream &o)
+{
+  o<<this->getcreated().zi<<","<<this->getcreated().luna<<","<<this->getcreated().an<<","<<this->getnume()<<","<<this->gethostname()<<","<<this->getip()<<","<<this->getport()<<","<<this->getkvnargs()<<","<<this->getstare();
+return o;
+}
+ostream & operator<<(ostream & os,VM & p)
+{
+
+    return p.afisare(os);
+}
+
+void VM::scriere(ostream & os)
+{
+   os<<this->getcreated().zi<<","<<this-getcreated().luna<<","<<this->getcreated().an<<","<<this->getnume()<<","<<this->gethostname()<<","<<this->getip()<<","<<this->getport()<<","<<this->getkvnargs()<<","<<this->getstare()<<endl;
+
+}
+VM & VM::getob()
+{
+    return * this;
+
 }
