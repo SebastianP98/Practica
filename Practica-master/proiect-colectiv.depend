@@ -1,0 +1,155 @@
+# depslib dependency file v1.0
+1555445012 source:c:\users\miriam\desktop\prob-pr-col-nokia\v2-github - copy\practica-master\practica-master\main.cpp
+	<iostream>
+	<list>
+	"Date.h"
+	"Carti.h"
+	"Resurse.h"
+	"VM.h"
+	<fstream>
+	<list>
+	<memory>
+	<sstream>
+	<vector>
+
+1555361890 c:\users\miriam\desktop\prob-pr-col-nokia\v2-github - copy\practica-master\practica-master\include\date.h
+	<iostream>
+
+1555444721 c:\users\miriam\desktop\prob-pr-col-nokia\v2-github - copy\practica-master\practica-master\include\carti.h
+	<iostream>
+	"Resurse.h"
+	<string.h>
+
+1555444721 c:\users\miriam\desktop\prob-pr-col-nokia\v2-github - copy\practica-master\practica-master\include\resurse.h
+	<iostream>
+
+1555444721 c:\users\miriam\desktop\prob-pr-col-nokia\v2-github - copy\practica-master\practica-master\include\vm.h
+	"Date.h"
+	<iostream>
+	"Resurse.h"
+	<string.h>
+
+1555355918 source:c:\users\miriam\desktop\prob-pr-col-nokia\v2-github - copy\practica-master\practica-master\src\date.cpp
+	"Date.h"
+	<iostream>
+
+1554978087 source:c:\users\miriam\desktop\prob-pr-col-nokia\v2-github - copy\practica-master\practica-master\src\menuinterface.cpp
+	"MenuInterface.h"
+
+1554978087 c:\users\miriam\desktop\prob-pr-col-nokia\v2-github - copy\practica-master\practica-master\include\menuinterface.h
+	"Customer.h"
+	"Admin.h"
+	"Resurse.h"
+	"VM.h"
+	"Carti.h"
+	"Date.h"
+
+1554978087 c:\users\miriam\desktop\prob-pr-col-nokia\v2-github - copy\practica-master\practica-master\include\customer.h
+	<memory>
+	<list>
+	<map>
+	<string>
+	<algorithm>
+	"admin.h"
+
+1554978087 c:\users\miriam\desktop\prob-pr-col-nokia\v2-github - copy\practica-master\practica-master\include\admin.h
+	<list>
+	<vector>
+	<algorithm>
+	"customer.h"
+
+1555445186 source:c:\users\miriam\desktop\prob-pr-col-nokia\v2-github - copy\practica-master\practica-master\src\vm.cpp
+	"VM.h"
+	"Date.h"
+	<iostream>
+	"Resurse.h"
+	<string.h>
+
+1555444047 source:c:\users\miriam\desktop\prob-pr-col-nokia\v2-github - copy\practica-master\practica-master\src\carti.cpp
+	"Resurse.h"
+	<iostream>
+	"Carti.h"
+	<string.h>
+
+1555442733 source:c:\users\miriam\desktop\prob-pr-col-nokia\v2-github - copy\practica-master\practica-master\src\resurse.cpp
+	"Resurse.h"
+	<iostream>
+	<string.h>
+
+1555582429 source:c:\users\miriam\desktop\prob-pr-col-nokia\v2-github - copy - copy\practica-master\practica-master\src\carti.cpp
+	"Resurse.h"
+	<iostream>
+	"Carti.h"
+	<string.h>
+
+1555444721 c:\users\miriam\desktop\prob-pr-col-nokia\v2-github - copy - copy\practica-master\practica-master\include\resurse.h
+	<iostream>
+
+1555444721 c:\users\miriam\desktop\prob-pr-col-nokia\v2-github - copy - copy\practica-master\practica-master\include\carti.h
+	<iostream>
+	"Resurse.h"
+	<string.h>
+
+1555355918 source:c:\users\miriam\desktop\prob-pr-col-nokia\v2-github - copy - copy\practica-master\practica-master\src\date.cpp
+	"Date.h"
+	<iostream>
+
+1555361890 c:\users\miriam\desktop\prob-pr-col-nokia\v2-github - copy - copy\practica-master\practica-master\include\date.h
+	<iostream>
+
+1554978087 source:c:\users\miriam\desktop\prob-pr-col-nokia\v2-github - copy - copy\practica-master\practica-master\src\menuinterface.cpp
+	"MenuInterface.h"
+
+1554978087 c:\users\miriam\desktop\prob-pr-col-nokia\v2-github - copy - copy\practica-master\practica-master\include\menuinterface.h
+	"Customer.h"
+	"Admin.h"
+	"Resurse.h"
+	"VM.h"
+	"Carti.h"
+	"Date.h"
+
+1554978087 c:\users\miriam\desktop\prob-pr-col-nokia\v2-github - copy - copy\practica-master\practica-master\include\customer.h
+	<memory>
+	<list>
+	<map>
+	<string>
+	<algorithm>
+	"admin.h"
+
+1554978087 c:\users\miriam\desktop\prob-pr-col-nokia\v2-github - copy - copy\practica-master\practica-master\include\admin.h
+	<list>
+	<vector>
+	<algorithm>
+	"customer.h"
+
+1555444721 c:\users\miriam\desktop\prob-pr-col-nokia\v2-github - copy - copy\practica-master\practica-master\include\vm.h
+	"Date.h"
+	<iostream>
+	"Resurse.h"
+	<string.h>
+
+1555442733 source:c:\users\miriam\desktop\prob-pr-col-nokia\v2-github - copy - copy\practica-master\practica-master\src\resurse.cpp
+	"Resurse.h"
+	<iostream>
+	<string.h>
+
+1555582429 source:c:\users\miriam\desktop\prob-pr-col-nokia\v2-github - copy - copy\practica-master\practica-master\src\vm.cpp
+	"VM.h"
+	"Date.h"
+	<iostream>
+	"Resurse.h"
+	<string.h>
+
+1555585462 source:c:\users\miriam\desktop\prob-pr-col-nokia\v2-github - copy - copy\practica-master\practica-master\main.cpp
+	<iostream>
+	<list>
+	"Date.h"
+	"Carti.h"
+	"Resurse.h"
+	"VM.h"
+	<fstream>
+	<list>
+	<memory>
+	<sstream>
+	<vector>
+
