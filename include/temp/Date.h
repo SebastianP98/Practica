@@ -6,11 +6,11 @@ using namespace std;
 class Date
 {
     public:
-        Date(int zi ,int luna,int an);
+        Date(int a,int b,int c);
         virtual ~Date();
         Date(const Date& p);
         friend ostream & operator<<(ostream& os,const Date& a);
-    public:
+    private:
         int zi;
         int luna;
         int an;

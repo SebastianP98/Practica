@@ -36,7 +36,7 @@ void Carti::afisare()
 {
     cout<<"afisare ";
     cout<<name << " ";
-    cout<<isbn<<" "<<autor << endl;
+    cout<<isbn<<" "<<autor <<stare<< endl;
 
 }
 ostream & operator<<(ostream &os,Carti & p)

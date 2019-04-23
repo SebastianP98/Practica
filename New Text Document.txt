@@ -2,4 +2,10 @@
 11,6,2018,name2,hostname2,hostname2,port2,kvnargs2,0;
 13,4,2018,name3,hostname3,hostname3,port3,kvnargs3,0;
 5,9,2018,name4,hostname4,hostname4,port4,kvnargs4,0;
-11,6,2018,nume6,hostname6,hostname6,port6,kvnargs6,1;
+
+
+
+nume1,autor1,isbn1,0;
+nume2,autor2,isbn2,0
+nume3,autor3,isbn3,0;
+nume4,autor4,isbn4,0;

@@ -8,11 +8,23 @@ using namespace std;
 class VM:public Resurse
 {
     public:
-        VM(string a,string b,string c,string d,string e,Date * f,int g);
+        VM(string name,string hostname,string ip,string port,string kvnargs,Date *created);
+        VM(string name,string hostname,string ip,string port,string kvnargs,Date *created,bool stare);
         virtual ~VM();
-        VM(const VM &);
+        //VM(const VM &);
         VM& returnare(string);
          void afisare();
+         friend ostream & operator<<(ostream & os,const Resurse & p);
+         string gethostname(){return hostname;}
+         string getnume(){return name;}
+         string getip(){return ip;}
+         string getport(){return port;}
+         string getkvnargs(){return kvnargs;}
+         Date & getcreated(){return  *created;}
+         void scriere(ostream & os);
+         string gettype(){return "VM";}
+         ostream & afisare(ostream &);
+        VM&  getob();
         //VM();
     private:
         string hostname;
@@ -20,6 +32,7 @@ class VM:public Resurse
         string  port;
         Date *created;
         string kvnargs;
+
 
 
 };

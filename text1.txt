@@ -1,5 +1,5 @@
-nume1,autor1,isbn1,0
-nume2,autor2,isbn2,1
-nume3,autor3,isbn3,1
-nume4,autor4,isbn4,0
-nume5,autor5,isbn5,0
+nume1,autor1,isbn1,0;
+nume2,autor2,isbn2,0;
+nume4,autor4,isbn4,0;
+nume5,autor5,isbn5,0;
+nume11,autor11,isbn11,1;

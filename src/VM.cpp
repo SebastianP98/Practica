@@ -58,7 +58,7 @@ VM::~VM()
 void VM::afisare()
 {
     cout<<name << " ";
-    cout<<hostname<<" "<<ip<<" "<<port<<" "<<kvnargs<< " " << *created << endl;
+    cout<<hostname<<" "<<ip<<" "<<port<<" "<<kvnargs<< " " << *created<<stare << endl;
 }
 ostream & VM::afisare(ostream &o)
 {
