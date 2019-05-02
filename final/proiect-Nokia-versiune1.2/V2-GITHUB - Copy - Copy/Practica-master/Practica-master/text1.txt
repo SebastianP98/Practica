@@ -1,0 +1,4 @@
+nume1,autor1,isbn1,0;
+nume2,autor2,isbn2,0;
+nume3,autor3,isbn3,0;
+nume4,autor4,isbn4,0;
